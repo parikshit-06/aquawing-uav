@@ -50,12 +50,14 @@ This repository documents the complete theoretical and computational development
 ## 📊 Folder Structure Suggestion
 
 ```
-📁 amphibious-uav/
-├── 📄 README.md
-├── 📄 Amphibious_Aircraft.pdf   # Detailed design and analysis report
-├── 📁 simulations/               # Plots and MATLAB/Python scripts (if applicable)
-├── 📁 figures/                   # Aerodynamic and hydrodynamic plots
-└── 📁 cad/                       # (Optional) CAD models or design schematics
+📦 amquawing-uav/
+├── 📁 airfoils/                    # Airfoil data and configurations
+├── 📁 wing/                        # Wing geometry and aerodynamic analysis
+├── 📁 wing_performance_logs/      # Wing performance results and plots
+├── 📁 propeller_performance_logs/ # Propeller performance results and logs
+├── 📄 Amphibious_Aircraft.pdf     # Full project report (includes theory, methodology, and results)
+├── 📄 LICENSE                     # License info
+└── 📄 README.md                   # Project documentation (this file)
 ```
 
 ---
