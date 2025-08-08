@@ -1,6 +1,6 @@
-## 🛩️ AquaWing UAV: Dual-Medium VTOL Aircraft
+## AquaWing UAV: Dual-Medium VTOL Aircraft
 
-## 📘 Overview
+## Overview
 
 This repository documents the complete theoretical and computational development of an amphibious unmanned aerial vehicle (UAV), focusing on:
 
@@ -12,7 +12,7 @@ This repository documents the complete theoretical and computational development
 
 ---
 
-## 📌 Key Features
+## Key Features
 
 * **VTOL-ready design** with low stall speeds and stable handling in both environments
 * **Validated airfoil selection** for 10–20 m/s (air) and 0.5 m/s (water) cruise regimes
@@ -22,9 +22,9 @@ This repository documents the complete theoretical and computational development
 
 ---
 
-## 🧠 Technical Highlights
+## Technical Highlights
 
-### ✈️ Airfoil & Wing Design
+### Airfoil & Wing Design
 
 * Best performing airfoil: **NACA 4412**
 * Cruise velocity (air): **15 m/s**, drag: **1.2 N**
@@ -32,7 +32,7 @@ This repository documents the complete theoretical and computational development
 * Cruise velocity (water): **0.5 m/s**, drag: **1.0 N**
 * Lift-to-drag ratio (water): **CL/CD ≈ 18**
 
-### ⚙️ Propeller Design
+### Propeller Design
 
 * Diameter: 0.26 m | Chord: 0.2 m | Blades: 2
 * Optimized RPMs:
@@ -40,14 +40,14 @@ This repository documents the complete theoretical and computational development
   * Air: 8216 RPM (J ≈ 0.421)
   * Water: 272 RPM (J ≈ 0.425)
 
-### 🌊 Transition Handling
+### Transition Handling
 
 * Analysis of hydrodynamic drag, porpoising, and spray effects
 * Center of gravity placement for positive static margin during takeoff/landing
 
 ---
 
-## 📊 Folder Structure Suggestion
+## Folder Structure Suggestion
 
 ```
 📦 amquawing-uav/
@@ -62,7 +62,7 @@ This repository documents the complete theoretical and computational development
 
 ---
 
-## 🛠️ Tools & Dependencies
+## Tools & Dependencies
 
 * MATLAB / Python for simulation and analysis
 * XFLR5 or VLM2 for aerodynamic predictions
@@ -71,7 +71,7 @@ This repository documents the complete theoretical and computational development
 
 ---
 
-## 📌 Authors
+## Authors
 
 * **Parikshit Sonwane** – AE22B042
 * **Devang Patwardhan** – AE22B043
@@ -80,7 +80,7 @@ This repository documents the complete theoretical and computational development
 
 ---
 
-## 📝 License
+## License
 
 This project is part of an academic submission. For reuse or further development, please contact the authors for permission.
 
